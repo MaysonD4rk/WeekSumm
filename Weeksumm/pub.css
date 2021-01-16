@@ -1,0 +1,90 @@
+#publicacoes{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.pages{
+	border: 2px solid black;
+	height: 430px;
+	width: 300px;
+	margin: 30px;
+}
+.title{
+	font-size: 30px;
+	font-weight: bold;
+}
+.subtitle{
+ font-size: 25px;
+}
+.bot-pub{
+	height: 325px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.like-comment{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+.like-comment button{
+	font-size: 25px;
+	border: none;
+	background: white;
+}
+.user-btn-rate{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.content-bot{
+	border-top: 1px solid black;
+	background: white;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.user{
+	background: #BDBDBD;
+	border-radius: 5px;	
+	padding: 4px;
+	margin: 5px;
+}
+.user-btn-rate button{
+	background: blue;
+	outline: none;
+	border: none;
+	padding: 10px;
+	margin-left: -20px;
+	border-radius: 5px;
+}
+.user-btn-rate i{
+	font-size: 25px;
+}
+.title-subtitle{
+	height: 105px;
+}
+
+
+.report{
+	transition: 0.4s;
+}
+
+.report:hover{
+	color: red;
+	font-size: 100px;
+}
+
+.popup{
+	position: fixed;
+	height: 500px;
+	width: 500px;
+	background: blue;
+	top: 100px;
+	right: 600px;
+	box-shadow: 6px 6px 30px black;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	display: none;
+}

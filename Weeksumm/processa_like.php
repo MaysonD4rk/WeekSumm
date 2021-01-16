@@ -1,0 +1,1 @@
+<?php include("seguro/processa_like.php"); ?>

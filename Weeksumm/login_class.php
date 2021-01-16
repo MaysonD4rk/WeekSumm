@@ -1,0 +1,1 @@
+<?php include("seguro/login_class.php"); ?>

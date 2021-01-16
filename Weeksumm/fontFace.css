@@ -1,0 +1,13 @@
+@font-face {
+			font-family: logo;
+			src: url(ITCBLKAD.TTF);
+			}
+
+.summ{
+	font-family: "Vladimir Script Regular", sans-serif;
+	color: red;
+}
+
+.week{
+	font-family: "Edwardian Script ITC Regular", sans-serif;
+}
